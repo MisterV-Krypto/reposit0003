@@ -1,0 +1,82 @@
+ body,html {
+   height: 100%
+ }
+
+ #bio{
+   border: 5px solid black;
+ }
+
+ .parallax {
+  background-image: url("C:\Users\Vaugh\OneDrive\Pictures\Adobe\Other Photos\VP_Productions.gif");
+
+  height: calc(100% + 120px);
+
+  /* parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+ 
+ }
+
+ .row {
+   background-color: rgba(255, 255, 255, 0.00);
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   padding: 10px;
+
+ }
+ .parallax-aboutyou {
+   background-image: url('');
+
+   height: calc(100% + 50px);
+
+   background-attachment: fixed;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+ }
+
+ .parallax-contact {
+   background-image: url("C:\Users\Vaugh\OneDrive\Pictures\Camera imports\2021-03-19\ISS_LIVE_NOW-20210315_121344.jpg");
+
+ 
+ height: calc(100%);
+
+ background-attachment: fixed;
+ background-position: center;
+ background-repeat: no-repeat;
+ backgound-size: cover;
+
+}
+
+.required-input {
+  background-color:#ffb3b3;
+
+}
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+
+}
+/* track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+
+}
+
+
+
+ 
+
+      
