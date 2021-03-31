@@ -1,0 +1,80 @@
+ body,html {
+   height: 100%
+ }
+
+ #bio {
+   border: 5px solid black;
+ }
+
+ .parallax {
+  background-image: url("C:\Users\Vaugh\OneDrive\Desktop\New folder\Images\webpg.jpg");
+  min-height: 100vh;
+
+  /* parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+ 
+ }
+
+ .row {
+   background-color: rgba(245, 237, 237, 0.616);
+   box-shadow: 0 4px 8px 0 rgba(228, 70, 70, 0.2), 0 6px 20px 0 rgba(145, 94, 94, 0.19);
+   padding: 10px;
+
+ }
+ .parralax-aboutyou {
+   background-image: url('C:\Users\Vaugh\OneDrive\Desktop\New folder\Images\issatlantic.gif');
+
+   min-height: 100vh;
+
+   background-attachment: fixed;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+ }
+
+ .parralax-contact {
+   background-image: url("C:\Users\Vaugh\OneDrive\Desktop\New folder\Images\WIN_20210324_13_51_50_Pro.jpg");
+   min-height: 25%;
+
+ background-attachment: fixed;
+ background-position: right, top;
+ background-repeat: no-repeat;
+ 
+
+}
+
+.required-input {
+  background-color:#cc33ff;
+
+}
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+
+}
+/* track */
+::-webkit-scrollbar-track {
+  background: 	 #bf00ff;
+
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background:  #cc0099;
+}
+
+/* handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: 	 #8000ff;
+
+}
+
+
+
+
+ 
+
+      
